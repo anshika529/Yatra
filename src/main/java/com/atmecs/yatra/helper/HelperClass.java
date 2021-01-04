@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class HelperClass {
+	private WebDriver driver;
+
 	public HelperClass(WebDriver driver) {
 		this.driver = driver;
 	}
